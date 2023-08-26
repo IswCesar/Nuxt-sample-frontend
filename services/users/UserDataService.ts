@@ -1,6 +1,6 @@
 import axios from 'axios'
 import User from '~/types/users/User';
-axios.defaults.baseURL = 'http://localhost:3001/api';
+axios.defaults.baseURL = 'https://nest-sample.adaptable.app/api';
 
 class UserDataService {
 
