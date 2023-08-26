@@ -1,7 +1,7 @@
-export default interface Tutorial {
-    id: null;
-    createdAt: string;
-    updatedAt: string;
+export default interface User {
+    id?: null;
+    createdAt?: string;
+    updatedAt?: string;
     firstname: string;
     lastname: string;
     email: string;
